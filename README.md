@@ -1,50 +1,97 @@
-# Welcome to your Expo app 👋
+# AIA Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AIA is your AI-powered assistant built with **React Native (Expo)**. The app allows users to interact via text or voice using GPT for smart, human-like conversations.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- 🎤 Voice input and transcription using **Deepgram**
+- 🤖 Smart responses powered by **OpenAI GPT**
+- 🗣️ Text-to-speech (TTS) using **Expo Speech**
+- 📱 Clean UI with chat interface and animated assistant
+- ⚙️ Built-in microphone recording with audio feedback
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
 
-2. Start the app
+- **React Native** (via Expo)
+- **TypeScript**
+- **OpenAI API**
+- **Deepgram API**
+- **Expo Speech / AV**
 
-   ```bash
-    npx expo start
-   ```
+## 📂 Folder Structure
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+- components/
+  - InputRow.tsx
+- services/
+  - openaiService.ts
+  - deepgramService.ts
+  - voiceService.ts
+- utilities/
+  - speakUtility.ts
+- screens/
+  - HomeScreen.tsx
+  - ChatScreen.tsx
+- assets/
+  - images/
+- App.tsx
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🔧 Setup
 
-## Learn more
+1. Clone the repo:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+git clone https://github.com/yourusername/aia-mobile.git
+cd aia-mobile
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2. Install dependencies:
 
-## Join the community
+```bash
+npm install
+```
 
-Join our community of developers creating universal apps.
+3. Add your API keys to `constants/Constants.ts`:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```ts
+export const openaiKey = 'sk-...';
+export const deepgramKey = 'dg_...';
+```
+
+4. Run the app:
+
+```bash
+npx expo start
+```
+
+> Make sure you have Expo Go installed on your device or emulator setup.
+
+## 🧠 Usage
+
+- Tap and hold the mic button to record your question
+- Release to transcribe and get GPT response
+- Or type directly into the input box
+
+## 🤖 Example
+
+```
+User: What's the weather like today?
+AIA: It looks sunny with a high of 28°C ☀️
+```
+
+## 📱 Screenshots
+
+_(Add screenshots if needed)_
+
+## 👨‍💻 Author
+
+Nabil Alsaadi
+
+- https://nabilalsaadi.com
+- https://github.com/nabil-alsaadi
+
+---
+
+Made with ❤️ using Expo and AI ✨
+
